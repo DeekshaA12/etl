@@ -1,6 +1,6 @@
 --sqlfluff:dialect:teradata
 
-REPLACE VIEW DEVV_STG_FLX.[tableNme] AS
+REPLACE VIEW DEVV_STG_FLX.[tableNme]_GET_DELTA AS
 LOCK ROW FOR ACCESS
 
 SELECT
